@@ -6,9 +6,9 @@ public class Exercise2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap vao do dai 3 canh a, b, c: ");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
+        float a = sc.nextFloat();
+        float b = sc.nextFloat();
+        float c = sc.nextFloat();
 
         if (a + b > c && b + c > a && a + c > b) {
             if (a == b && b == c) {
