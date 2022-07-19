@@ -15,7 +15,10 @@ public class Exercise2 {
                 System.out.println("Day la tam giac deu");
             } else if (a == b || a == c || b == c) {
                 System.out.println("Day la tam giac can");
-            } else if (a * a == b * b + c * c || b * b == c * c + a * a || c * c == a * a + b * b) {
+            } else if (Math.pow(a, 2) == Math.pow(b, 2) + Math.pow(c, 2)
+                    || Math.pow(b, 2) == Math.pow(c, 2) + Math.pow(a, 2)
+                    || Math.pow(c, 2) == Math.pow(a, 2) + Math.pow(b, 2))
+            {
                 System.out.println("Day la tam giac vuong");
             } else {
                 System.out.println("Day la tam giac thuong");
