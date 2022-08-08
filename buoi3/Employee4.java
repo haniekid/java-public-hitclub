@@ -8,6 +8,9 @@ public class Employee4 {
     public static void main(String[] args) {
         Employee4 e = new Employee4();
         e.input();
+        System.out.println("--------------------");
+        e.output();
+        System.out.println("--------------------");
         e.output();
     }
 

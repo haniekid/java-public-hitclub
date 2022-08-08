@@ -26,23 +26,31 @@ public class Employee2 {
         e3.output();
         e4.output();
         e5.output();
+        System.out.println("-----------------------------");
+        e1.output();
+        e2.output();
+        e3.output();
+        e4.output();
+        e5.output();
     }
 
-    static private int id = 0;
+    private int id;
+    private static int temp = 1;
     private int age;
     private String name;
     private String address;
     private String department;
 
     public Employee2() {
+        id = temp++;
     }
-
-    public Employee2(int age, String name, String address, String department) {
-        this.age = age;
-        this.name = name;
-        this.address = address;
-        this.department = department;
-    }
+//
+//    public Employee2(int age, String name, String address, String department) {
+//        this.age = age;
+//        this.name = name;
+//        this.address = address;
+//        this.department = department;
+//    }
 
     public void input() {
         System.out.print("AGE: ");
@@ -57,7 +65,7 @@ public class Employee2 {
     }
 
     public void output() {
-        id++;
         System.out.println(id + "\t\t" + age + "\t\t" + name + "\t\t" + address + "\t\t" + department);
     }
+
 }
