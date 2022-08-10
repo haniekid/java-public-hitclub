@@ -1,4 +1,4 @@
-package exercise2;
+package exercise2.out;
 
 import com.sun.tools.javac.Main;
 
@@ -6,15 +6,15 @@ import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main2 {
-
+    static int n;
+    static Student s[];
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("-----------------------1---------------------");
         System.out.println("NHAP SO SINH VIEN: ");
-        int n = sc.nextInt();
+        n = sc.nextInt();
         //Cấp phát số lượng phần tủ
-        Student s[] = new Student[n];
-
+        s = new Student[n];
         for(int i = 0; i < n; i++) {
             System.out.println("----------------------------------");
             System.out.println("NHAP THONG TIN SINH VIEN THU " + (i+1));
@@ -55,14 +55,11 @@ public class Main2 {
         }
     }
 
-    public static void change(Student s[]) {
+    public static void change(Student students[]) {
         for (int i = 0; i < s.length; i++) {
-            if (s[i].getAddress().getProvince() == "Thanh Hoa") {
-                s[i].getAddress().setProvince("Hai Phong");
+            if (students[i].getAddress().getProvince().equals("Thanh Hoa")) {
+                students[i].getAddress().setProvince("Hai Phong");
             }
-        }
-        for(int i = 0; i < s.length; i++) {
-            s[i].output();
         }
     }
 
@@ -78,6 +75,5 @@ public class Main2 {
             s[i].output();
         }
     }
-
 
 }

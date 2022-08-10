@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ed8db09-8b8b-4587-961e-748ca5f031a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise3/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise3/isPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btvn2/Exercise1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btvn4/exercise1/Main1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btvn4/exercise1/MayTinh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btvn4/exercise1/PhongMay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btvn4/exercise1/QuanLy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/MayTinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/MayTinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/PhongMay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/PhongMay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/QuanLy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/QuanLy.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2D56JBYZjlSly9gS2hl6lJjx8hS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise2.Main2" />
+      <module name="exercise2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ed8db09-8b8b-4587-961e-748ca5f031a9" name="Changes" comment="" />
+      <created>1659976534762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659976534762</updated>
+    </task>
+    <servers />
+  </component>
+</project>

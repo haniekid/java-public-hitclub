@@ -9,7 +9,7 @@ public class Main3 {
         System.out.println(a.isPrime(7));
         System.out.println(a.isPrime(100000));
         System.out.println(a.isPrime(2.3));
-        System.out.println(a.isPrime(120));
+        System.out.println(a.isPrime(4.5));
 
     }
 }
